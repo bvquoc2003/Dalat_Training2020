@@ -1,0 +1,5 @@
+for(int i=1;i<=n;i++) 
+        if(ba[i].second<a) {
+            a=ba[i].second;
+            ia=i;
+        }

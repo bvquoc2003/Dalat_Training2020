@@ -1,0 +1,31 @@
+n đỉnh --> n^(n-2) cây khung
+
+Đồ thị vô hướng G có n dỉnh và m cạnh
+k - số thành phần liên thôngg của G
+Bổ sung k-1 cạnh để G trở thành đồ thị liên thông
+S1, S2, ...,Sk - kich thước các thành phần liên thông của G 
+
+Mỗi cạnh được bổ sung sẽ nối 2 thành phần liên thông
+Hai cạnh khác nhau - nối 2 cặp thành phần liên thông khác nhau
+Mỗi thành phần liên thông có thể coi như một siêu đỉnh
+Keest quả bổ sung cạnh cho ra được 1 cây khung k đỉnh
+
+Có thể nối 2 siêu đỉnh bất kì
+Số cách nối k siêu đỉnh <--> số câu khung trong đồ thị đầy đủ k đỉnh
+
+Để xác định số lượng csach bổ sung cần biết bậc có thể của mỗi đienh trong cây khung k đỉnh.
+d[i] - bậc của đỉnh i trong cây khung i: i=1:k
+
+Số cách chọn=s1*s2*s3*...*s[k]*n^(k-2)
+
+.assign(n,false) = .resize(n,false);
+
+int pw(int x, int y) { //Solve x^y %MOD
+    int r=1;
+    while (y) {
+        if (y%2==1) r=(r*x)%MOD;
+        x=(x*x)%MOD;
+        y>>1;
+    }
+    return r;
+}

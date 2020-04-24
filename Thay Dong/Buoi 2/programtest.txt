@@ -1,0 +1,36 @@
+Comparing files UNION.OUT and UNION.ANS
+FC: no differences encountered
+
+Comparing files UNION.OUT and UNION.ANS
+FC: no differences encountered
+
+Comparing files UNION.OUT and UNION.ANS
+FC: no differences encountered
+
+Comparing files UNION.OUT and UNION.ANS
+FC: no differences encountered
+
+Comparing files UNION.OUT and UNION.ANS
+FC: no differences encountered
+
+Comparing files UNION.OUT and UNION.ANS
+FC: no differences encountered
+
+Comparing files UNION.OUT and UNION.ANS
+FC: no differences encountered
+
+Comparing files UNION.OUT and UNION.ANS
+***** UNION.OUT
+18
+***** UNION.ANS
+17
+*****
+
+Test 1: CORRECT!
+Test 2: CORRECT!
+Test 3: CORRECT!
+Test 4: CORRECT!
+Test 5: CORRECT!
+Test 6: CORRECT!
+Test 7: CORRECT!
+Test 8: WRONG!
